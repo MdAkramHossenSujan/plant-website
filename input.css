@@ -30,3 +30,12 @@ h1{
 .btn_outline{
     @apply bg-transparent
 }
+.title{
+    @apply font-Lobster text-yellow-500 
+}
+h3{
+    @apply text-xl md:text-2xl lg:text-3xl
+}
+.popular_card:hover img{
+   @apply -top-10;
+}
